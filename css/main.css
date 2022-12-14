@@ -6,12 +6,11 @@ body{
     background-color: black;
     color: white;
 }
-    
-nav li{
-    display: inline;
-    margin: 20px;
+  
+nav{
+    display: block;
+    color: white;
 }
-
 nav ul{
     text-align: center;
     background: black;
@@ -19,23 +18,22 @@ nav ul{
     list-style-type: none;
     width: 100%;
     padding: 20px;
-
+}
+nav li{
+    display: inline;
+    margin: 20px;
 }
 
-nav{
-    display: block;
-    color: white;
-}
 
 .hero-image{
-    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.5)),url("./images/theater-image-background.png");
-    height: 50%;
+    background-image: url("./images/theater-image-background.png");
+    height: 30%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     position: relative;
+    bottom: -16px;
 }
-
 .hero-text{
     color: white;
     text-align: center;
@@ -44,4 +42,50 @@ nav{
     left: 50%;
     transform:translate(-50%,-50%);
     font-size: 45px;
+}
+
+
+main {
+    background-color: white;
+    color: black;
+    padding: 100px 50px 20px 50px;
+}
+
+.month{
+    display: flex;
+    border: 1px solid gray;
+    border-width: 100%;
+    border-color: black;
+}
+.month p{
+    padding-left: 40px;
+}
+
+
+.shows{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.show-image{
+    float: left;
+}
+.shows ul{
+    list-style-type: none;
+}
+.shows li{
+    margin: 30px;
+}
+button{
+    float: right;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(230, 195, 43);
+    color: white;
+    border-color: gray;
 }
