@@ -45,10 +45,10 @@ nav a:hover{
 
 .hero-image{
     background-image: url("./images/theater-image-background.png");
-    height: 30%;
+    height:500px;
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
+    background-position: bottom;
     position: relative;
     bottom: -16px;
 }
