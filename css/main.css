@@ -10,19 +10,37 @@ body{
 nav{
     display: block;
     color: white;
+    font-weight:50;
+    padding: 0px 0px 0px 50px;
+}
+h1{
+    display: inline-block;
+
 }
 nav ul{
-    text-align: center;
+    display: inline-block;
     background: black;
-    margin: 0px;
+    margin-left:100px;
     list-style-type: none;
     width: 100%;
-    padding: 20px;
+    padding: 0px 0px 0px 250px;
+    
 }
 nav li{
     display: inline;
     margin: 20px;
+    font-size: medium;
 }
+nav a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: purple;
+}
+
 
 
 .hero-image{
@@ -41,24 +59,31 @@ nav li{
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-    font-size: 45px;
+    font-size: 100px;
+    font-weight:400;
+    font-family: serif;
 }
 
 
 main {
     background-color: white;
     color: black;
-    padding: 100px 50px 20px 50px;
+    padding: 100px 200px 100px 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .month{
     display: flex;
     border: 1px solid gray;
-    border-width: 100%;
+    border-width: 50%;
     border-color: black;
+    
 }
 .month p{
+    display: flex;
+
     padding-left: 40px;
+    font-size: 20px;
 }
 
 
@@ -73,19 +98,16 @@ main {
     border-bottom: 1px solid gray;
     margin-bottom: 20px;
 }
-.show-image{
-    float: left;
-}
 .shows ul{
     list-style-type: none;
 }
 .shows li{
     margin: 30px;
 }
-button{
+.button{
     float: right;
-    margin: 10px 10px 10px 10px;
+    padding: 15px 10px 15px 10px;
     background-color: rgb(230, 195, 43);
     color: white;
-    border-color: gray;
+    font-size:large ;
 }
