@@ -3,7 +3,8 @@ body, html{
     margin: 0px;
 }
 body{
-    background-color: black ;
+    background-color: black;
+    color: white;
 }
     
 nav li{
