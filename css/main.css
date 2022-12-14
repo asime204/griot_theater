@@ -1,7 +1,7 @@
 body,
 html {
     height: 100%;
-    margin: 0px;
+    margin: 0;
 }
 
 body {
@@ -13,7 +13,7 @@ nav {
     display: block;
     color: white;
     font-weight: 50;
-    padding: 0px 0px 0px 50px;
+    padding: 0 0 0 50px;
 }
 
 h1 {
@@ -120,4 +120,47 @@ main {
     background-color: rgb(230, 195, 43);
     color: white;
     font-size: large;
+}
+
+.footer {
+    display: flex;
+    font-family: serif;
+}
+
+.menu {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#info h3 {
+    font-size: xx-large;
+}
+
+#info p {
+    font-size: smaller;
+    padding: 20px 0 0 20px;
+}
+
+#shows h3 {
+    font-size: xx-large;
+}
+
+#shows p {
+    font-size: smaller;
+    padding: 20px 0 0 20px;
+}
+
+#social h3 {
+    font-size: xx-large;
+}
+
+#social p {
+    font-size: smaller;
+    padding: 20px 0 0 20px;
 }
